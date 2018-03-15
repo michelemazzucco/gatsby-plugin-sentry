@@ -6,6 +6,7 @@ const SentryCdn = ({ dsn, version = '3.21.0' }) =>
     <script
       src={`https://cdn.ravenjs.com/${version}/raven.min.js`}
       crossOrigin="anonymous"
+      async
     />
   ) : null;
 
